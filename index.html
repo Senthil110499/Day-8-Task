@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey-form</h1>
+    <div class="container">
+        <form>
+            <div>
+                <b><label id="name-label" for="name">Name*</label></b>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Firstname" required />
+                <label id="name-label" for="name"></label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Lastname" required />
+            </div>
+            <div>
+                <b><label id="email-label" for="email">Email*</label></b>
+                <input type="email" name="email" id="email" class="form-control" required />
+            </div>
+            <div>
+                <b>
+                    <p>Your Experience*</p>
+                </b>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div>
+                <p>Overall, how would you rate you experience with us?</p>
+                <b>
+                    <p>How satisfied are you with*</p>
+                </b>
+                <b>
+                    <p>Purchase</p>
+                </b>
+                <span><input type="radio" />Very Unsatisfied</span>
+                <span><input type="radio" />Unsatisfied</span>
+                <span><input type="radio" />Netural</span>
+                <span><input type="radio" />Satisfied</span>
+                <span><input type="radio" />Very Satisfied</span>
+            </div>
+            <div>
+                <b>
+                    <p>Service</p>
+                </b>
+                <span><input type="radio" />Very Unsatisfied</span>
+                <span><input type="radio" />Unsatisfied</span>
+                <span><input type="radio" />Netural</span>
+                <span><input type="radio" />Satisfied</span>
+                <span><input type="radio" />Very Satisfied</span>
+            </div>
+            <div>
+                <b>
+                    <p>Service</p>
+                </b>
+                <span><input type="radio" />Very Unsatisfied</span>
+                <span><input type="radio" />Unsatisfied</span>
+                <span><input type="radio" />Netural</span>
+                <span><input type="radio" />Satisfied</span>
+                <span><input type="radio" />Very Satisfied</span>
+            </div>
+            <div>
+                <b>
+                    <p>How likely are you to*</p>
+                </b>
+                <b>
+                    <p>Buy from us again</p>
+                </b>
+                <span><input type="radio" />Very Unlikely</span>
+                <span><input type="radio" />Unlikely</span>
+                <span><input type="radio" />Netural</span>
+                <span><input type="radio" />Likely</span>
+                <span><input type="radio" />Very Likely</span>
+            </div>
+            <div>
+                <b>
+                    <p>Recommend our product to others</p>
+                </b>
+                <span><input type="radio" />Very Unlikely</span>
+                <span><input type="radio" />Unlikely</span>
+                <span><input type="radio" />Netural</span>
+                <span><input type="radio" />Likely</span>
+                <span><input type="radio" />Very Likely</span>
+            </div>
+            <div>
+                <b>
+                    <p>Recommend our company to others</p>
+                </b>
+                <span><input type="radio" />Very Unlikely</span>
+                <span><input type="radio" />Unlikely</span>
+                <span><input type="radio" />Netural</span>
+                <span><input type="radio" />Likely</span>
+                <span><input type="radio" />Very Likely</span>
+            </div>
+            <div>
+                <b>
+                    <p>Additional comments or suggestions</p>
+                </b>
+                <textarea id="comments" class="input-textarea" name="comment"></textarea>
+            </div>
+            <div>
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
