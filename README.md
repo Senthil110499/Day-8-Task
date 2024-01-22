@@ -5,3 +5,5 @@ __A survey is a method of gathering information using relevant questions from a 
 
 ![Survey image](Survey.jpg)
 
+Survey is a study of the opinions, behaviour of a group of people.
+(https://task-survey-form.netlify.app/)
